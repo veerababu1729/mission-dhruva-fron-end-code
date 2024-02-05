@@ -1,0 +1,73 @@
+
+.your-component {
+    background-image: url('../images/logo.jpg');
+    background-size: cover;
+    background-position: center;
+    background-repeat: no-repeat;
+    min-height: "100%";
+    display: flex;
+    flex-direction: column;
+    align-items: center;
+  }
+  
+  .navbar {
+    display: flex;
+    align-items: center;
+    justify-content: space-between;
+    padding: 10px;
+    width: 100%;
+  }
+  
+  .logo {
+    width: 150px;
+    height: 100px;
+    object-fit: cover;
+    border-radius: 50%;
+  }
+  
+  .header-content {
+    display: flex;
+    align-items: center;
+  }
+  
+  h1 {
+    font-size: 60px;
+    color: #111010;
+    margin: 0;
+    align-items: center;
+  }
+  .line {
+    border: 1px solid #050505;
+    margin: 10px 0;
+    width: 100%;
+  }
+  
+  .search-bar {
+    display: flex;
+    align-items: center;
+    margin: 20px;
+    width: 100%;
+  }
+  
+  .search-icon {
+    font-size: 20px;
+    margin-right: 10px;
+  }
+  
+  .search-bar input {
+    width: 100%;
+    padding: 8px;
+    border: 1px solid #ccc;
+    border-radius: 4px;
+    outline: none;
+  }
+ 
+  a:hover{
+    background-color: #324ec9;
+    color: aliceblue;
+    border-radius: 25%;
+    border-width: 100%;
+    font-size: 39px;
+    transition-delay: 0.2s;
+    transition-timing-function: calc(10s);
+  }
